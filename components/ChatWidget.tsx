@@ -84,16 +84,7 @@ export default function ChatWidget() {
     text-align: right !important;
   }
 `;
-      #n8n-chat,
-      .n8n-chat-container,
-      .n8n-chat-bubble,
-      .n8n-chat-user-bubble,
-      .n8n-chat-footer input,
-      .n8n-chat-footer textarea {
-        direction: rtl !important;
-        text-align: right !important;
-      }
-    `;
+
     document.head.appendChild(style);
 
     createChat({

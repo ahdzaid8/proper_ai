@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@n8n/chat": "^1.29.1",
     "@supabase/supabase-js": "^2.103.0",
     "better-sqlite3": "^12.8.0",
     "clsx": "^2.1.1",
